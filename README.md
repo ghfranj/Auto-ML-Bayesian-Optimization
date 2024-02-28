@@ -17,7 +17,10 @@ Implementations:
 
 ## A. the chosen supervised learning algorithm: Gradient Boosting
 ~~~
-GradientBoostingClassifier(n_estimators=int(hyp_params[0]), learning_rate=hyp_params[1],																	subsample = hyp_params[2], min_samples_split = hyp_params[3],																min_weight_fraction_leaf = hyp_params[4], max_depth = int(hyp_params[5]),														random_state=0).fit(X_train, y_train)
+GradientBoostingClassifier(n_estimators=int(hyp_params[0]), learning_rate=hyp_params[1],
+    subsample = hyp_params[2], min_samples_split = hyp_params[3],
+    min_weight_fraction_leaf = hyp_params[4], max_depth = int(hyp_params[5]),
+    random_state=0).fit(X_train, y_train)
 ~~~
 ## B. Comparison results:
 
